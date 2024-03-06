@@ -1,0 +1,136 @@
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black; 
+    font-family: 'Lobster', cursive;
+} 
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color:black; 
+    font-family: 'Abril Fatface', cursive;
+    text-transform:uppercase;
+} 
+.navbar-brand:hover{
+    color: black;   
+    
+} 
+.search{
+    height: 40px;
+    width: 80%; 
+    margin-right: -35px;
+    border-radius: 60px;
+    outline: none;
+    border:2px solid rgb(248,26,92);
+} 
+.btn{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248,26,92);
+    font-weight: 700;
+    border-radius: 60px;
+} 
+.main{
+    background: url(./img/img1.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%; 
+    width: 100%;
+} 
+.main h1{
+    font-size: 4rem;
+    font-weight: 700; 
+    text-align: right; 
+
+} 
+.btn1{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248,26,92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}  
+
+    /* Sidebar */
+    .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0 0; /* Height of navbar */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 240px;
+    z-index: 600;
+    }
+    
+    @media (max-width: 991.98px) {
+    .sidebar {
+    width: 100%;
+    }
+    }
+    .sidebar .active {
+    border-radius: 5px;  
+    background: rgb(248,26,92);
+    color: white; 
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    }
+    
+    .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto; 
+    /* Scrollable contents if viewport is shorter than content. */
+    } 
+     
+/* BASIC */
+
+  h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display:inline-block;
+    margin: 40px 8px 10px 8px; 
+    color: #cccccc;
+  }  
+ul {
+    
+    display: flex;
+    gap:10px;
+}
+ul li{
+    font-size: 17px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+  
+
+}
+ul:hover li a {
+    color: #30edf4;
+
+}
+ul:hover li a:not(:hover){
+    color: red;
+    opacity: 1;
+    filter: blur(0.2px);
+} 
+
+
+  
